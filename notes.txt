@@ -1,0 +1,24 @@
+on this url I have set every things ::http://laraveltest.web.a1professionals.net/
+
+1.added money api base by user email_id.
+
+http://laraveltest.web.a1professionals.net/api/addmoney
+
+Api keys & Parameter below
+
+email:rana@gmail.com
+add_money:20.00
+
+2. Bought product api by email_id and product_id based on decreasing the wallet according to product price in user wallet.
+
+http://laraveltest.web.a1professionals.net/api/buyproduct
+
+Api keys & Parameter below
+product_id:1
+email:rana@gmail.com
+
+3.Created table of prdouct by migrations :- 2022_11_23_074608_create_products_table
+
+4.added columns table of user wallet and migrations:- 2022_11_23_071648_add_columns_to_users_table
+
+5 Set decimal places value two digit number.
